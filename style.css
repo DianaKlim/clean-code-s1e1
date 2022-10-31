@@ -126,7 +126,7 @@ label[for = "new__task"] {
   vertical-align: middle;
 }
 
-.list__item > input[type="checkbox"] {
+.list__item > input[type = "checkbox"] {
   margin: 0 10px;
 }
 
@@ -137,7 +137,7 @@ label[for = "new__task"] {
   width: 226px;
 }
 
-.list__item > input[type="text"] {
+.list__item > input[type = "text"] {
   width: 226px;
 }
 
@@ -157,11 +157,11 @@ button.delete img:hover {
 }
 
 /* Edit task */
-.list .list__item input[type=text] {
+.list .list__item input[type = text] {
   display: none;
 }
 
-.list .edit__mode input[type=text] {
+.list .edit__mode input[type = text] {
   display: inline-block;
   width: 224px;
 }
