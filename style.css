@@ -130,7 +130,7 @@ label[for = "new__task"] {
   margin: 0 10px;
 }
 
-.list__item > abel {
+.list__item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
