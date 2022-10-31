@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.hint .more__inf {
+.hint .hint__info {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.add-task__row {
+.add__task_row {
   display: flex;
 }
 
@@ -104,7 +104,7 @@ input[type = "text"]:focus {
 
 /* New task */
 /* label[for = "new__task"] { */
-.add-task__h2 {
+.add__task_h2 {
   display: block;
   margin: 0 0 20px;
 }
