@@ -1,5 +1,5 @@
 /* Basic style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.hint img {
+.hint .img {
   width: 100%;
 }
 
@@ -38,7 +38,7 @@ body {
   flex-grow: 1
 }
 
-.add-tasks__row {
+.add-task__row {
   display: flex;
 }
 
@@ -72,7 +72,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.h3,
 label[for="new__task"] {
   color: #333;
   font-weight: 700;
@@ -111,7 +111,7 @@ input#new__task {
 }
 
 /* Task list */
-li {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;  
@@ -120,22 +120,22 @@ li {
   align-items: center;
 }
 
-li>* {
+.list__item>* {
   vertical-align: middle;
 }
 
-li>input[type="checkbox"] {
+.list__item>input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li>label {
+.list__item>label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li>input[type="text"] {
+.list__item>input[type="text"] {
   width: 226px
 }
 
@@ -150,20 +150,20 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed__tasks label {
+#completed__tasks label {
   text-decoration: line-through color: #888;
 }
 
 /* Edit task */
-ul li input[type=text] {
+.list .list__item input[type=text] {
   display: none
 }
 
-ul li.edit__mode input[type=text] {
+.list .edit__mode input[type=text] {
   display: inline-block;
   width: 224px
 }
 
-ul li.edit__mode label {
+.list .edit__mode label {
   display: none;
 }
