@@ -50,7 +50,7 @@ ul {
 }
 
 li,
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -74,7 +74,7 @@ button:hover {
 }
 
 /* Heading */
-.h3,
+.h2,
 label[for = "new__task"] {
   color: #333;
   font-weight: 700;
@@ -103,7 +103,8 @@ input[type = "text"]:focus {
 }
 
 /* New task */
-label[for = "new__task"] {
+/* label[for = "new__task"] { */
+.add-task__h2 {
   display: block;
   margin: 0 0 20px;
 }
